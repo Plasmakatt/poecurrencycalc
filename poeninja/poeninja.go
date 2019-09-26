@@ -50,7 +50,7 @@ type explicitModifiers struct {
 }
 
 func (poeNinja *PoeNinja) LoadData() {
-	var httpClients [12]httpclient.HttpClient
+	var httpClients [16]httpclient.HttpClient
 
 	httpClients[0] = httpclient.HttpClient{TargetURL: constants.DivinationCardsURL}
 	httpClients[1] = httpclient.HttpClient{TargetURL: constants.EssenceURL}
@@ -64,6 +64,10 @@ func (poeNinja *PoeNinja) LoadData() {
 	httpClients[9] = httpclient.HttpClient{TargetURL: constants.UniqueWeaponURL}
 	httpClients[10] = httpclient.HttpClient{TargetURL: constants.UniqueAccessoryURL}
 	httpClients[11] = httpclient.HttpClient{TargetURL: constants.UniqueJewelURL}
+	httpClients[12] = httpclient.HttpClient{TargetURL: constants.OilURL}
+	httpClients[13] = httpclient.HttpClient{TargetURL: constants.ResonatorURL}
+	httpClients[14] = httpclient.HttpClient{TargetURL: constants.FossilURL}
+	httpClients[15] = httpclient.HttpClient{TargetURL: constants.IncubatorURL}
 
 	var tempPoeNinja PoeNinja
 	for _, client := range httpClients {

@@ -6,6 +6,10 @@ const FragmentURL = "https://poe.ninja/api/Data/GetFragmentOverview?league=Bligh
 const CurrencyURL = "https://poe.ninja/api/Data/GetCurrencyOverview?league=Blight"
 const ProphecyURL = "https://poe.ninja/api/Data/GetProphecyOverview?league=Blight"
 const MapURL = "https://poe.ninja/api/Data/GetMapOverview?league=Blight"
+const OilURL = "https://poe.ninja/api/data/ItemOverview?league=Blight&type=Oil"
+const ResonatorURL = "https://poe.ninja/api/data/ItemOverview?league=Blight&type=Resonator"
+const FossilURL = "https://poe.ninja/api/data/ItemOverview?league=Blight&type=Fossil"
+const IncubatorURL = "https://poe.ninja/api/data/ItemOverview?league=Blight&type=Incubator"
 
 const UniqueMapURL = "https://poe.ninja/api/Data/GetUniqueMapOverview?league=Blight"
 const UniqueArmorURL = "https://poe.ninja/api/Data/GetUniqueArmourOverview?league=Blight"
